@@ -12,11 +12,12 @@ body {
 #topbar {
   display: flex;
   justify-content: space-around;
-  margin: 10px;
-  padding: 100px;
+  padding: 80px;
 }
 
 .rectangle {
+  text-align: center;
+  width: 250px;
   padding: 50px;
   background-color: #ff00ff;
 }
@@ -30,18 +31,23 @@ body {
 .tile1 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /*tutaj zwrócić uwagę*/
-  padding: 100px;
-  margin: 5%;
+  align-items: center;
+  padding: 50px;
+  margin: 20px;
   background-color: #53df30;
 }
 
 .tile2 {
-  padding: 70px;
+  text-align: center;
+  width: 100px;
+  padding: 30px 70px;
+  margin-bottom: 20px;
   background-color: rgb(150, 0, 1);
 }
 
 .tile3 {
-  padding: 40px;
+  width: 50px;
+  height: 120px;
+  padding: 50px;
   background-color: #4d5dff;
 }
